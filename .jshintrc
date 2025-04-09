@@ -1,6 +1,7 @@
 // Based on jshint defaults: http://goo.gl/OpjUs
 
 {
+    "esversion": 6,
     // If the scan should stop on first error.
     "passfail": false,
     // Maximum errors before stopping.

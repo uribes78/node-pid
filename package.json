@@ -3,14 +3,19 @@
     "description": "Manage a pid file.",
     "version": "0.4.0",
     "author": "Mathieu Turcotte <turcotte.mat@gmail.com>",
-    "keywords": ["util", "pid", "daemon", "process"],
+    "keywords": [
+        "util",
+        "pid",
+        "daemon",
+        "process"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/MathieuTurcotte/node-pid.git"
     },
     "devDependencies": {
-        "nodeunit": "0.8",
-        "jshint": "2.4"
+        "jshint": "^2.13.6",
+        "nodeunit": "0.8"
     },
     "scripts": {
         "pretest": "node_modules/.bin/jshint index.js lib/ tests/ examples/",

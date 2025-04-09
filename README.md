@@ -59,6 +59,18 @@ Synchronously removes a pid file. Does not throw if the pid file is missing or
 if the removal fails. Returns a boolean indicating whether the pid file removal
 succeeded.
 
+#### npid.isRunning(pid): bool
+
+- pid: pid number
+
+Make a test if the pid process is still running
+
+#### npind.exists(path): bool
+
+- path: pid file path
+
+Synchronously evaluate is file already exists and pid process is still o execution
+
 ### Class Pid
 
 Represents a handle to a pid file and expose an API to remove it either
@@ -73,7 +85,7 @@ removal succeeded.
 
 #### pid.removeOnExit()
 
-Removes the pid file on normal process exit.
+Removes the pid file on normal process exit or if process got SIGTERM signal.
 
 ## License
 
