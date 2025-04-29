@@ -65,7 +65,7 @@ succeeded.
 
 Make a test if the pid process is still running
 
-#### npind.exists(path): bool
+#### npid.exists(path): bool
 
 - path: pid file path
 
